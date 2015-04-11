@@ -3,7 +3,7 @@
     zip_file <- "dataset.zip"
 
 #download zip, and unzip in working direcorty
-    download.file(dataset_url, destfile = zip_file, method = "curl")
+    download.file(dataset_url, destfile = zip_file)
     unzip(zip_file)
     file.remove(zip_file)
 
